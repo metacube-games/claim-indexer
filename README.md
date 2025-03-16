@@ -1,6 +1,6 @@
 # claim-indexer
 
-Author: @NilsDelage
+Author: https://github.com/NilsDelage
 
 ## Build and run
 
