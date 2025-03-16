@@ -263,10 +263,9 @@ func updateState() {
 				continue
 			}
 
-			tIDStr = fmt.Sprintf("%4s", tIDStr)
 			log.Default().Printf(
 				"Transfer %s from %s to %s, contract %s",
-				tIDStr,
+				fmt.Sprintf("%4s", tIDStr),
 				prettyAddress(from),
 				prettyAddress(to),
 				prettyAddress(contract),
